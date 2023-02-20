@@ -1,0 +1,22 @@
+.modal-overlay {
+  position: fixed; /* 화면 상단에 고정되도록 설정 */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-box {
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  position: relative;
+  width: 400px; 
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+}
